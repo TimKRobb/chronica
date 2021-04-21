@@ -1,0 +1,20 @@
+{
+  "name": "quaesir/chronica",
+  "description": "Simple tool to browse genealogies & title succession lists",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Tim K. Robb",
+      "email": "tim.k.robb@quaesir.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Chronica\\": "src/"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
